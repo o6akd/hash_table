@@ -22,7 +22,7 @@ long hashcode(char key[]){ // provided code
   return strnum.num;
 }
 
-// PROVIDED: Compute a simple hash code for the given character
+// Compute a simple hash code for the given character
 // string. The code is "computed" by casting the first 8 characters of
 // the string to a long and returning it. The empty string has hash
 // code 0. If the string is a single character, this will be the ASCII
